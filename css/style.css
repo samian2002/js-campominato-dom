@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px; /* Larghezza totale della griglia */
+    gap: 1px; /* Distanza tra le celle */
+    padding: 10px; /* Padding esterno intorno alla griglia */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Effetto ombra per profondità */
+}
+
+.cell {
+    width: 30px;  /* Larghezza fissa delle celle */
+    height: 30px; /* Altezza fissa delle celle */
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 2px; /* Bordi leggermente arrotondati per un aspetto più morbido */
+}
+
+.cell:hover {
+    background-color: #e0e0e0; /* Cambio di colore al passaggio del mouse */
+}
+
+button, select {
+    padding: 10px 15px;
+    margin: 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover, select:hover {
+    background-color: #0056b3;
+}
+
+button:focus, select:focus {
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
