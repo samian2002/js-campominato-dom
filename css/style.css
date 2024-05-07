@@ -12,25 +12,25 @@ body {
 #grid {
     display: flex;
     flex-wrap: wrap;
-    width: 320px; /* Larghezza totale della griglia */
-    gap: 1px; /* Distanza tra le celle */
-    padding: 10px; /* Padding esterno intorno alla griglia */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Effetto ombra per profondità */
+    width: 320px; 
+    gap: 1px; 
+    padding: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .cell {
-    width: 30px;  /* Larghezza fissa delle celle */
-    height: 30px; /* Altezza fissa delle celle */
+    width: 30px;
+    height: 30px;
     background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    border-radius: 2px; /* Bordi leggermente arrotondati per un aspetto più morbido */
+    border-radius: 2px; 
 }
 
 .cell:hover {
-    background-color: #e0e0e0; /* Cambio di colore al passaggio del mouse */
+    background-color: #e0e0e0; 
 }
 
 button, select {
